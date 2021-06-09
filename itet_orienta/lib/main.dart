@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
           title: const Text('ITET Orienta'),
         ),
         body: const Center(
-          child: const Text('Applicazione Orientamento - ITET Garibaldi Marsala'),
+          child: const Text('Applicazione Orientamento - ITET "Garibaldi" Marsala'),
         ),
       ),
     );
