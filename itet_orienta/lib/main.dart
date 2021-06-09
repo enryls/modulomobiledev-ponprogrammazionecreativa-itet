@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ITET Orienta',
+      title: 'ITET Orienta Ciao Gianni',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('ITET Orienta'),
