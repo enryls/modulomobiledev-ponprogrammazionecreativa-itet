@@ -63,8 +63,11 @@ class Pagina1 extends StatelessWidget {
       appBar: AppBar(
         title: Text('Pagina 1'),
       ),
-      body: Center(
-        child: Text('Testo della pagina 1')
+      body: ListView(
+        children: [
+          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Testo della pagina 1'),
+        ],
       ),
     );
   }
