@@ -40,9 +40,32 @@ class MyHomePage extends StatelessWidget {
                 color: Colors.purple,
               ),
             ),
+            ListTile(
+              title: Text('Prima Pagina'),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Pagina1())
+                );
+              },
+            ),
           ],
         )
       )
+    );
+  }
+}
+
+class Pagina1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Pagina 1'),
+      ),
+      body: Center(
+        child: Text('Testo della pagina 1')
+      ),
     );
   }
 }
