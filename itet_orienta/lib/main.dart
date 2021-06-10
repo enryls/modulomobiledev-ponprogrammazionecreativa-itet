@@ -25,6 +25,14 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(title)),
       body: Center(child: Text('Applicazione Orientamento - ITET "Garibaldi" Marsala')),
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: <Widget> [
+            DrawerHeader(child: Text('Menu Principale')),
+          ],
+        )
+      )
     );
   }
 }
