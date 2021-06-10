@@ -110,7 +110,7 @@ class LaNostraScuola extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 1'),
         ],
       ),
@@ -127,7 +127,7 @@ class CosaSiStudia extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 2'),
         ],
       ),
@@ -144,7 +144,7 @@ class EsperienzeEProgetti extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 3'),
         ],
       ),
@@ -161,7 +161,7 @@ class LaboratoriEInnovazione extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 4'),
         ],
       ),
@@ -178,7 +178,7 @@ class CheLavoriPuoiFare extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 5'),
         ],
       ),
@@ -195,7 +195,7 @@ class PerIGenitori extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 6'),
         ],
       ),
