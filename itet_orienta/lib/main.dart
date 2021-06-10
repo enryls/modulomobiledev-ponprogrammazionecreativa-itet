@@ -29,7 +29,17 @@ class MyHomePage extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget> [
-            DrawerHeader(child: Text('Menu Principale')),
+            DrawerHeader(
+              child: Text('ITET "Garibaldi" Marsala',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 24,
+                        ),
+              ),
+              decoration: BoxDecoration(
+                color: Colors.purple,
+              ),
+            ),
           ],
         )
       )
