@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: <Widget> [
             DrawerHeader(
-              child: Text('ITET "Garibaldi" Marsala',
+              child: Text('ITET Orienta',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,
@@ -41,11 +41,56 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text('Prima Pagina'),
+              title: Text('La nostra scuola'),
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Pagina1())
+                  MaterialPageRoute(builder: (context) => LaNostraScuola())
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Cosa si studia?'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => CosaSiStudia())
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Esperienze e progetti'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => EsperienzeEProgetti())
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Laboratori e innovazione'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LaboratoriEInnovazione())
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Che lavori puoi fare?'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => CheLavoriPuoiFare())
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Per i genitori'),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => PerIGenitori())
                 );
               },
             ),
@@ -56,17 +101,102 @@ class MyHomePage extends StatelessWidget {
   }
 }
 
-class Pagina1 extends StatelessWidget {
+class LaNostraScuola extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pagina 1'),
+        title: Text('La nostra scuola'),
       ),
       body: ListView(
         children: [
           Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 1'),
+        ],
+      ),
+    );
+  }
+}
+
+class CosaSiStudia extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Cosa si studia?'),
+      ),
+      body: ListView(
+        children: [
+          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Testo della pagina 2'),
+        ],
+      ),
+    );
+  }
+}
+
+class EsperienzeEProgetti extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Esperienze e progetti'),
+      ),
+      body: ListView(
+        children: [
+          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Testo della pagina 3'),
+        ],
+      ),
+    );
+  }
+}
+
+class LaboratoriEInnovazione extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Laboratori e innovazione'),
+      ),
+      body: ListView(
+        children: [
+          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Testo della pagina 4'),
+        ],
+      ),
+    );
+  }
+}
+
+class CheLavoriPuoiFare extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Che lavori puoi fare?'),
+      ),
+      body: ListView(
+        children: [
+          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Testo della pagina 5'),
+        ],
+      ),
+    );
+  }
+}
+
+class PerIGenitori extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Per i genitori'),
+      ),
+      body: ListView(
+        children: [
+          Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Testo della pagina 6'),
         ],
       ),
     );
