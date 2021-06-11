@@ -3,6 +3,7 @@ import 'package:itet_orienta/pagine/la_nostra_scuola.dart';
 import 'package:itet_orienta/pagine/laboratori_e_innovazione.dart';
 import 'package:itet_orienta/pagine/per_i_genitori.dart';
 import 'package:itet_orienta/pagine/che_lavori_puoi_fare.dart';
+import 'package:itet_orienta/pagine/esperienze_e_progetti.dart';
 
 void main() => runApp(MyApp());
 
@@ -129,22 +130,7 @@ class CosaSiStudia extends StatelessWidget {
   }
 }
 
-class EsperienzeEProgetti extends StatelessWidget {
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Esperienze e progetti'),
-      ),
-      body: ListView(
-        children: [
-          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
-          Text('Testo della pagina 3'),
-        ],
-      ),
-    );
-  }
-}
+
 
 
 
