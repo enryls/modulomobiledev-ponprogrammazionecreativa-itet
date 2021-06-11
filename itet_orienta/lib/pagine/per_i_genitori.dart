@@ -9,8 +9,7 @@ class PerIGenitori extends StatelessWidget {
       appBar: AppBar(
         title: Text('Per i genitori'),
       ),
-      body: Column(
-      Center(child:Container(child: <Widget>[ListView(
+      body: ListView(
         children: [
           Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
         Padding(
@@ -29,10 +28,9 @@ class PerIGenitori extends StatelessWidget {
             ),
             textAlign: TextAlign.justify,
           ),
-        ),],),
-        ],
-      ),
-      ),
+        )
+            ,]
+            ,),
     );
   }
 }
