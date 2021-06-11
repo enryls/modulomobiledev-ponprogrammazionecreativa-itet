@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:itet_orienta/pagine/la_nostra_scuola.dart';
 
 void main() => runApp(MyApp());
 
@@ -104,23 +105,6 @@ class MyHomePage extends StatelessWidget {
           ],
         )
       )
-    );
-  }
-}
-
-class LaNostraScuola extends StatelessWidget {
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('La nostra scuola'),
-      ),
-      body: ListView(
-        children: [
-          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
-          Text('Testo della pagina 1'),
-        ],
-      ),
     );
   }
 }
