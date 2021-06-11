@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:itet_orienta/pagine/la_nostra_scuola.dart';
 import 'package:itet_orienta/pagine/per_i_genitori.dart';
+import 'package:itet_orienta/pagine/che_lavori_puoi_fare.dart';
 
 void main() => runApp(MyApp());
 
@@ -161,20 +162,5 @@ class LaboratoriEInnovazione extends StatelessWidget {
   }
 }
 
-class CheLavoriPuoiFare extends StatelessWidget {
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Che lavori puoi fare?'),
-      ),
-      body: ListView(
-        children: [
-          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
-          Text('Testo della pagina 5'),
-        ],
-      ),
-    );
-  }
-}
+
 
