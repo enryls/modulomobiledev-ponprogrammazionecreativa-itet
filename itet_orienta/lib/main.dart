@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
+final colore_standard = Color.fromRGBO(73, 34, 252, 1.0);
+
 class MyApp extends StatelessWidget {
   final appTitle = 'ITET Orienta';
 
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       theme: ThemeData(
-        primaryColor: Colors.purple,
+        primaryColor: colore_standard,
       ),
       home: MyHomePage(),
     );
@@ -24,7 +26,12 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(title)),
-      body: Center(child: Text('Applicazione Orientamento - ITET "Garibaldi" Marsala')),
+      body: ListView(
+        children: [
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
+          Text('Homepage'),
+        ],
+      ),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -37,7 +44,7 @@ class MyHomePage extends StatelessWidget {
                         ),
               ),
               decoration: BoxDecoration(
-                color: Colors.purple,
+                color: colore_standard,
               ),
             ),
             ListTile(
@@ -110,7 +117,7 @@ class LaNostraScuola extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 1'),
         ],
       ),
@@ -127,7 +134,7 @@ class CosaSiStudia extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 2'),
         ],
       ),
@@ -144,7 +151,7 @@ class EsperienzeEProgetti extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 3'),
         ],
       ),
@@ -161,7 +168,7 @@ class LaboratoriEInnovazione extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 4'),
         ],
       ),
@@ -178,7 +185,7 @@ class CheLavoriPuoiFare extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 5'),
         ],
       ),
@@ -195,7 +202,7 @@ class PerIGenitori extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
           Text('Testo della pagina 6'),
         ],
       ),
