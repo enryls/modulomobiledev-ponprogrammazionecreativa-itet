@@ -12,25 +12,29 @@ class PerIGenitori extends StatelessWidget {
       body: ListView(
         children: [
           Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
-        Padding(
-          padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
-          child:const Text("L'unione tra famiglia e scuola", style: TextStyle(
-            fontSize: 35
-          ),
-            textAlign: TextAlign.center
-          ),
-        ),
-        Padding(
-          padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
-          child:const Text('L’ Itet Garibaldi di Marsala offre diverse agevolazioni, delle opportunità per le famiglie. Per avere ulteriori informazioni su corsi, iscrizioni, escursioni  e offerta formativa nel dettaglio, clicca qui.',
-            style: TextStyle(
-              fontSize: 20,
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+            child:const Text("L'unione tra famiglia e scuola", style: TextStyle(
+                fontSize: 35
             ),
-            textAlign: TextAlign.justify,
+                textAlign: TextAlign.center
+            ),
           ),
-        )
-            ,]
-            ,),
+          Padding(
+            padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+            child:const Text(
+              'L’ Itet Garibaldi di Marsala offre diverse agevolazioni, delle '
+              'opportunità per le famiglie. Per avere ulteriori informazioni '
+              'su corsi, iscrizioni, escursioni  e offerta formativa nel '
+              'dettaglio, clicca qui.',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+              textAlign: TextAlign.justify,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
