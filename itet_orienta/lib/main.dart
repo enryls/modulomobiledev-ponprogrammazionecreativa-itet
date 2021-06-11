@@ -129,9 +129,3 @@ class CosaSiStudia extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
