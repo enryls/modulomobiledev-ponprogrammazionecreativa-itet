@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class LaboratoriEInnovazione extends StatelessWidget {
   @override
   Widget build(BuildContext context){
