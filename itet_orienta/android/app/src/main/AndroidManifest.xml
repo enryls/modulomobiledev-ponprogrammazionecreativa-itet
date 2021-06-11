@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.itet_orienta">
    <application
-        android:label="itet_orienta"
+        android:label="ITET Orienta"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
