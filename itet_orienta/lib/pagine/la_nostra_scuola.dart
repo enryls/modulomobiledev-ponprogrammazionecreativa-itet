@@ -8,7 +8,8 @@ class LaNostraScuola extends StatelessWidget {
     return Scaffold(
       drawer: MyDrawer(),
       appBar: AppBar(
-        title: Text('La nostra scuola'),
+          title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
+          centerTitle: true
       ),
       body: ListView(
         children: [

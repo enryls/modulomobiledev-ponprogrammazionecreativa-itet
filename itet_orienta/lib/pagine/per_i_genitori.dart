@@ -7,7 +7,8 @@ class PerIGenitori extends StatelessWidget {
     return Scaffold(
       drawer: MyDrawer(),
       appBar: AppBar(
-        title: Text('Per i genitori'),
+          title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
+          centerTitle: true
       ),
       body: ListView(
         children: [

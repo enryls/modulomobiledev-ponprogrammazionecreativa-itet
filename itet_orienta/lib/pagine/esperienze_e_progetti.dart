@@ -7,12 +7,8 @@ class EsperienzeEProgetti extends StatelessWidget {
     return Scaffold(
       drawer: MyDrawer(),
       appBar: AppBar(
-        title: Text(
-            'Esperienze e Progetti',
-             style: TextStyle(
-            color: Colors.amber
-        )
-          ),
+          title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
+          centerTitle: true
       ),
       body: ListView(
         children: [

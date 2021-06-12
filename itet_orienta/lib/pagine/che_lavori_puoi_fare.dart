@@ -7,7 +7,8 @@ class CheLavoriPuoiFare extends StatelessWidget {
     return Scaffold(
         drawer: MyDrawer(),
         appBar: AppBar(
-          title: Text("Che lavori puoi fare?"),
+            title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
+            centerTitle: true
         ),
         body: Column(
             children: <Widget>[

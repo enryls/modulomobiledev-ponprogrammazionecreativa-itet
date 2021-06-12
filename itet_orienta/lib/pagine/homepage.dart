@@ -7,7 +7,10 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text(title)),
+        appBar: AppBar(
+            title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
+            centerTitle: true
+        ),
         body: ListView(
           children: [
             Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
