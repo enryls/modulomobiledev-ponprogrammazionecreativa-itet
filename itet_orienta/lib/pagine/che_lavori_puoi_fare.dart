@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import '../drawer.dart';
 
 class CheLavoriPuoiFare extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
+        drawer: MyDrawer(),
         appBar: AppBar(
           title: Text("Che lavori puoi fare?"),
         ),

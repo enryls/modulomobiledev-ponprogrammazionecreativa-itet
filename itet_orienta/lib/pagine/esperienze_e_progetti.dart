@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import '../drawer.dart';
 
 class EsperienzeEProgetti extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
+      drawer: MyDrawer(),
       appBar: AppBar(
         title: Text(
             'Esperienze e Progetti',
