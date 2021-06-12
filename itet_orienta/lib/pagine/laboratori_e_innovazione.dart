@@ -13,6 +13,9 @@ class LaboratoriEInnovazione extends StatelessWidget {
       body: ListView(
         children: [
           Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
+          SizedBox(height: 10),
+          Text('Laboratori e innovazione',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35,)),
+          SizedBox(height: 10),
           Text('Testo della pagina 4'),
         ],
       ),
