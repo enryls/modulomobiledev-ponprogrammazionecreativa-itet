@@ -49,6 +49,7 @@ flutter:
     - assets/icon/icon.png
     - assets/images/itetorienta.png
     - assets/images/Splashscreen.png
+    - assets/images/genitori.jpeg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

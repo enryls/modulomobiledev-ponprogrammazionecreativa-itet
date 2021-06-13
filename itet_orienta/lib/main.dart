@@ -6,7 +6,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   final appTitle = 'ITET Orienta';
-  final colore_standard = Color.fromRGBO(93, 0, 255, 1.0);
+  final colore_standard = Color.fromRGBO(86, 70, 204, 1.0);
 
   @override
   Widget build(BuildContext context) {
