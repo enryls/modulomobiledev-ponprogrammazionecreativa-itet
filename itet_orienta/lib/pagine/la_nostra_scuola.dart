@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../drawer.dart';
+import 'package:itet_orienta/drawer.dart';
 
 class LaNostraScuola extends StatelessWidget {
 
@@ -14,11 +14,11 @@ class LaNostraScuola extends StatelessWidget {
       body: ListView(
         children: [
           Image.asset('assets/images/scuola_2.png', width: 600, height: 200, fit: BoxFit.cover,),
-          SizedBox(height: 10),
-          Text('La Nostra Scuola',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35,)),
-          SizedBox(height: 10),
+          SizedBox(height: 30),
+          Text('La nostra scuola',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35,fontWeight: FontWeight.bold,)),
+          SizedBox(height: 1),
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(40.40),
             child:
             Text('La nostra storia inizia nel 1921 con l’istituto superiore per il commercio… '
                 'Nel 1961 la scuola viene intitolata a Giuseppe Garibaldi. '
@@ -26,7 +26,8 @@ class LaNostraScuola extends StatelessWidget {
                 'Tra gli anni 80 e gli anni 90 il “Giuseppe Garibaldi” arrivò ad '
                 'avere fino a 45 classi e più di 1300 alunni, continuando ad evolversi '
                 'diventando, oggi, una delle scuole più rinomate e punto di riferimento '
-                'per l’istruzione superiore nel territorio.', style: TextStyle(fontSize: 20,)),
+                'per l’istruzione superiore nel territorio.', textAlign: TextAlign.justify,
+                style: TextStyle(fontSize: 20, height: 1.2)),
           ),
         ],
       ),

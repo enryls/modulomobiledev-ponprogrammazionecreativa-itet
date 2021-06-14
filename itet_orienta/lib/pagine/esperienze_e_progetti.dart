@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../drawer.dart';
+import 'package:itet_orienta/drawer.dart';
 
 class EsperienzeEProgetti extends StatelessWidget {
   @override
@@ -12,7 +12,7 @@ class EsperienzeEProgetti extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/experience.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
           SizedBox(height: 10),
           Text('Esperienze e progetti',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35, color: Colors.amber)),
           SizedBox(height: 10),
