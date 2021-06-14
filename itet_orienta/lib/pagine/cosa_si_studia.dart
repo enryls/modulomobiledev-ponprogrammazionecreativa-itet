@@ -26,7 +26,7 @@ class CosaSiStudia extends StatelessWidget {
                   'Aziendali e Turistico. Lo studente, finito il percorso '
                   'scolastico, sarà pronto per proseguire con gli studi universitari '
                   'oppure affrontare subito il mondo del lavoro.)',
-                textAlign: TextAlign.center,),
+                textAlign: TextAlign.center, style: TextStyle(fontSize: 22),)
             ),
             Text('AFM (amministrazione, finanza e marketing)', textAlign: TextAlign.center,
               style: TextStyle(fontSize: 35),
@@ -37,7 +37,8 @@ class CosaSiStudia extends StatelessWidget {
                 ' i progetti in laboratorio, le esperienze di alternanza scuola-lavoro,'
                 ' si uniscono in un percorso che consente allo studente di farsi trovare '
                 'pronto per il mondo del lavoro e dell’università.)',
-              textAlign: TextAlign.center,),
+              textAlign: TextAlign.center,style: TextStyle(fontSize: 22),)
+            ,
             Text('SIA (Sistemi informativi aziendali)',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 35),
@@ -52,7 +53,8 @@ class CosaSiStudia extends StatelessWidget {
                 'in maniera completa l’informatica e conoscere il mondo dell’economia. '
                 'Sono tanti i progetti, i laboratori, e le attività di alternanza '
                 'scuola lavoro in ambito informatico.',
-              textAlign: TextAlign.center,),
+              textAlign: TextAlign.center,style: TextStyle(fontSize: 22),)
+            ,
             Text('Turismo',  textAlign: TextAlign.center,
               style: TextStyle(fontSize: 35),
             ),
@@ -63,7 +65,7 @@ class CosaSiStudia extends StatelessWidget {
                 ' appieno le dinamiche del settore turistico, che ogni anno coinvolge '
                 'sempre più persone. Permette di ottenere competenze nella  valorizzazione '
                 'del paesaggio, nella promozione culturale e dei servizi riguardanti il territorio.',
-              textAlign: TextAlign.center,),
+              textAlign: TextAlign.center,style: TextStyle(fontSize: 22),)
           ]),
     );
   }
