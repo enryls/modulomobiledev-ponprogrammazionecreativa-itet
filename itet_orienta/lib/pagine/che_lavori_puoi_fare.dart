@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../drawer.dart';
+import 'package:itet_orienta/drawer.dart';
 
 class CheLavoriPuoiFare extends StatelessWidget {
   @override
