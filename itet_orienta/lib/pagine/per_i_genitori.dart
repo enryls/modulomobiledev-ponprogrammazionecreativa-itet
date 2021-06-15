@@ -50,35 +50,35 @@ class PerIGenitori extends StatelessWidget {
             ),
           ),
 
-      ClipRRect(
-        borderRadius: BorderRadius.circular(4),
-        child: Stack(
-          children: <Widget>[
-            Positioned.fill(
-              child: Container(
-                decoration: const BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: <Color>[
-                      Color(0xFF0D47A1),
-                      Color(0xFF1976D2),
-                      Color(0xFF42A5F5),
-                    ],
+          ClipRRect(
+            borderRadius: BorderRadius.circular(4),
+            child: Stack(
+              children: <Widget>[
+                Positioned.fill(
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: <Color>[
+                          Color(0xFF0D47A1),
+                          Color(0xFF1976D2),
+                          Color(0xFF42A5F5),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
-              ),
+                TextButton(
+                  style: TextButton.styleFrom(
+                    padding: const EdgeInsets.all(16.0),
+                    primary: Colors.black,
+                    textStyle: const TextStyle(fontSize: 20),
+                  ),
+                  child: const Text('Clicca qui!'),
+                  onPressed: _launchURL,
+                ),
+              ],
             ),
-            TextButton(
-              style: TextButton.styleFrom(
-                padding: const EdgeInsets.all(16.0),
-                primary: Colors.black,
-                textStyle: const TextStyle(fontSize: 20),
-              ),
-              child: const Text('Clicca qui!'),
-              onPressed: _launchURL,
-            ),
-          ],
-        ),
-      ),
+          ),
         ],
       ),
       );
