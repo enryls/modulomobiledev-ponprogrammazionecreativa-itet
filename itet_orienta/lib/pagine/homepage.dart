@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:itet_orienta/drawer.dart';
+import 'package:itet_orienta/appbar.dart';
 
 class MyHomePage extends StatelessWidget {
   final title = 'ITET Orienta';
@@ -7,10 +8,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
-            centerTitle: true
-        ),
+      appBar: MyAppBar(),
       body: ListView(
         children: [
           Image.asset('assets/images/scuola.png', width: 600, height: 200, fit: BoxFit.cover,),

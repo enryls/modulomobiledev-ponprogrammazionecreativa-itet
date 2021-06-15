@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:itet_orienta/drawer.dart';
+import 'package:itet_orienta/appbar.dart';
 
 class CosaSiStudia extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
       drawer: MyDrawer(),
-      appBar: AppBar(
-          title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
-          centerTitle: true
-      ),
+      appBar: MyAppBar(),
       body: ListView(
           children: [
             Image.asset('assets/images/studia.jpeg', width: 600, height: 240, fit: BoxFit.cover,),

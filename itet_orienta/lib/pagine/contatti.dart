@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:itet_orienta/drawer.dart';
+import 'package:itet_orienta/appbar.dart';
 
 class Contatti extends StatelessWidget {
   final title = 'ITET Orienta';
@@ -8,10 +9,7 @@ class Contatti extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       drawer: MyDrawer(),
-      appBar: AppBar(
-          title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
-          centerTitle: true
-      ),
+      appBar: MyAppBar(),
       body: ListView(
         children: [
           SizedBox(height: 30),

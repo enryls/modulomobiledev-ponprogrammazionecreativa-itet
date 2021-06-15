@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:itet_orienta/drawer.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:itet_orienta/appbar.dart';
 
 class PerIGenitori extends StatelessWidget {
   get style => null;
@@ -9,10 +10,7 @@ class PerIGenitori extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       drawer: MyDrawer(),
-      appBar: AppBar(
-          title: Image.asset('assets/images/itetorienta.png',fit: BoxFit.cover,),
-          centerTitle: true
-      ),
+      appBar: MyAppBar(),
       body: ListView(
         children: [
           Image.asset('assets/images/genitori.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
