@@ -25,7 +25,7 @@ class PerIGenitori extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+            padding: EdgeInsets.all(40.40),
             child: const Text(
               'L’ Itet Garibaldi di Marsala offre diverse agevolazioni, delle '
               'opportunità per le famiglie.',
@@ -36,7 +36,7 @@ class PerIGenitori extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+            padding: EdgeInsets.all(40.40),
             child: const Text(
               'Per avere ulteriori informazioni '
               'su corsi, iscrizioni, escursioni e offerta formativa nel '
@@ -47,23 +47,22 @@ class PerIGenitori extends StatelessWidget {
                 textAlign: TextAlign.justify,
             ),
           ),
-
-      Padding(
-        padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
-        child:TextButton(
-            style: TextButton.styleFrom(
+          Padding(
+            padding: EdgeInsets.fromLTRB(90, 20, 90, 20),
+            child:TextButton(
+             style: TextButton.styleFrom(
               backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
-              padding: EdgeInsets.all(30),
+              padding: EdgeInsets.all(20),
               alignment: Alignment.center,
               primary: Colors.white,
               textStyle: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold
+                  fontSize: 29,
+                  fontWeight: FontWeight.bold,
               ),
               elevation: 10,
             ),
-            child: const Text('Clicca qui!'),
-            onPressed: _launchURL,
+              child: const Text('Clicca qui!'),
+              onPressed: _launchURL,
           ),
       ),
         ],
