@@ -12,7 +12,7 @@ class CheLavoriPuoiFare extends StatelessWidget {
         ),
         body: ListView(
             children: [
-              Image.asset('assets/images/scuola.png',
+              Image.asset('assets/images/che_lavori_puoi_fare.png',
                   width: 600,
                   height: 240,
                   fit: BoxFit.cover
