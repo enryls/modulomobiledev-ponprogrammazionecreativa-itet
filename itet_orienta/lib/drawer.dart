@@ -20,8 +20,8 @@ class MyDrawer extends StatelessWidget {
             child: ListView(
               padding: EdgeInsets.zero,
               children: <Widget> [
-                ListTile(
-                  title: Image.asset('assets/images/itetorienta.png', alignment: Alignment.topLeft),
+                DrawerHeader(
+                  child: Image.asset('assets/images/itetorienta.png', alignment: Alignment.topLeft),
                 ),
                 _createDrawerItem(text: 'La nostra scuola', onTap: () {
                       Navigator.push(
@@ -65,7 +65,7 @@ class MyDrawer extends StatelessWidget {
                     );
                   }
                 ),
-                SizedBox(height: 320),
+                SizedBox(height: 120),
                 _createDrawerItem(text: 'Contatti', onTap: () {
                     Navigator.push(
                         context,
