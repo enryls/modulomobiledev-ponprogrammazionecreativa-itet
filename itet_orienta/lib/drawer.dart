@@ -9,7 +9,7 @@ import 'package:itet_orienta/pagine/esperienze_e_progetti.dart';
 import 'package:itet_orienta/pagine/cosa_si_studia.dart';
 
 class MyDrawer extends StatelessWidget {
-  final colore_sfondo = Color.fromRGBO(73, 34, 252, 1.0);
+  final colore_sfondo = Color.fromRGBO(86, 70, 204, 1.0);
 
   @override
   Widget build(BuildContext context) {
