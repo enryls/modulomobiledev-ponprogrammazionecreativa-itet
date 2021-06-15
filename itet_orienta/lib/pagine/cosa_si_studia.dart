@@ -12,12 +12,12 @@ class CosaSiStudia extends StatelessWidget {
       ),
       body: ListView(
           children: [
-            Image.asset('assets/images/scuola.png', width: 600, height: 240, fit: BoxFit.cover,),
+            Image.asset('assets/images/studia.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
             SizedBox(height: 10),
-            Text('Il Biennio',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35,)),
-            SizedBox(height: 10),
+            Text('Il Biennio',textAlign: TextAlign.center ,style: TextStyle(fontSize: 28,)),
+            SizedBox(height: 3),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(20.20),
               child:
               Text('Il primo biennio fornisce una base generale di conoscenze '
                   'informatiche, economiche e linguistiche. Dal terzo anno gli '
@@ -26,23 +26,30 @@ class CosaSiStudia extends StatelessWidget {
                   'Aziendali e Turistico. Lo studente, finito il percorso '
                   'scolastico, sarà pronto per proseguire con gli studi universitari '
                   'oppure affrontare subito il mondo del lavoro.)',
-                textAlign: TextAlign.center, style: TextStyle(fontSize: 22),)
+                textAlign: TextAlign.justify, style: TextStyle(fontSize: 20, height:1.0),)
             ),
             Text('AFM (amministrazione, finanza e marketing)', textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 35),
+              style: TextStyle(fontSize: 28),
             ),
+      Padding(
+          padding: const EdgeInsets.all(20.20),
+          child:
             Text('L’indirizzo AFM (amministrazione, finanza e marketing) è il '
                 'percorso giusto per poter apprendere competenze professionali in '
                 'ambito informatico, scientifico ed economico. Le attività in classe,'
                 ' i progetti in laboratorio, le esperienze di alternanza scuola-lavoro,'
                 ' si uniscono in un percorso che consente allo studente di farsi trovare '
                 'pronto per il mondo del lavoro e dell’università.)',
-              textAlign: TextAlign.center,style: TextStyle(fontSize: 22),)
-            ,
+              textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),
+            ),
+      ),
             Text('SIA (Sistemi informativi aziendali)',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 35),
+              style: TextStyle(fontSize: 28),
             ),
+      Padding(
+          padding: const EdgeInsets.all(20.20),
+          child:
             Text('Sei un appassionato di informatica, ti piace utilizzare i computer '
                 'e vorresti imparare a progettare siti web?Il SIA, Sistemi Informativi Aziendali, '
                 'è l’indirizzo dell’ITET “Garibaldi” che segue le tue passioni. '
@@ -53,11 +60,14 @@ class CosaSiStudia extends StatelessWidget {
                 'in maniera completa l’informatica e conoscere il mondo dell’economia. '
                 'Sono tanti i progetti, i laboratori, e le attività di alternanza '
                 'scuola lavoro in ambito informatico.',
-              textAlign: TextAlign.center,style: TextStyle(fontSize: 22),)
-            ,
+              textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),)
+      ),
             Text('Turismo',  textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 35),
+              style: TextStyle(fontSize: 28),
             ),
+      Padding(
+          padding: const EdgeInsets.all(20.20),
+          child:
             Text('L’indirizzo TURISMO dell’istituto ITET Garibaldi di Marsala '
                 'consente agli studenti di apprendere ampie competenze linguistiche, '
                 'in maniera tale da poter svolgere attività nelle imprese turistiche '
@@ -65,7 +75,8 @@ class CosaSiStudia extends StatelessWidget {
                 ' appieno le dinamiche del settore turistico, che ogni anno coinvolge '
                 'sempre più persone. Permette di ottenere competenze nella  valorizzazione '
                 'del paesaggio, nella promozione culturale e dei servizi riguardanti il territorio.',
-              textAlign: TextAlign.center,style: TextStyle(fontSize: 22),)
+              textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),)
+      ),
           ]),
     );
   }
