@@ -17,7 +17,7 @@ class PerIGenitori extends StatelessWidget {
         children: [
           Image.asset('assets/images/genitori.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
           Padding(
-            padding: EdgeInsets.fromLTRB(20, 30, 20, 30),
+            padding: EdgeInsets.fromLTRB(15, 30, 15, 30),
             child: const Text("L'unione tra famiglia e scuola",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
@@ -50,41 +50,30 @@ class PerIGenitori extends StatelessWidget {
             ),
           ),
 
-          ClipRRect(
-            borderRadius: BorderRadius.circular(4),
-            child: Stack(
-              children: <Widget>[
-                Positioned.fill(
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: <Color>[
-                          Color(0xFF0D47A1),
-                          Color(0xFF1976D2),
-                          Color(0xFF42A5F5),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
-                TextButton(
-                  style: TextButton.styleFrom(
-                    padding: const EdgeInsets.all(16.0),
-                    primary: Colors.black,
-                    textStyle: const TextStyle(fontSize: 20),
-                  ),
-                  child: const Text('Clicca qui!'),
-                  onPressed: _launchURL,
-                ),
-              ],
+      Padding(
+        padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
+        child:TextButton(
+            style: TextButton.styleFrom(
+              backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
+              padding: EdgeInsets.all(30),
+              alignment: Alignment.center,
+              primary: Colors.white,
+              textStyle: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold
+              ),
+              elevation: 10,
             ),
+            child: const Text('Clicca qui!'),
+            onPressed: _launchURL,
           ),
+      ),
         ],
       ),
       );
   }
   _launchURL() async {
-    const url = 'https://flutter.io';
+    const url = 'https://itetgaribaldi.it/agevolazioni-economiche/';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
