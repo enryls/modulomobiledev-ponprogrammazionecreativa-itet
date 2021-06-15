@@ -52,6 +52,7 @@ flutter:
     - assets/images/Splashscreen.png
     - assets/images/genitori.jpeg
     - assets/images/experience.jpeg
+    - assets/images/laboratorio.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
