@@ -15,18 +15,18 @@ class CheLavoriPuoiFare extends StatelessWidget {
                   height: 240,
                   fit: BoxFit.cover
               ),
-              SizedBox(height: 10),
-              Text('La Nostra Scuola',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35)),
+              SizedBox(height: 40),
+              Text('La Nostra Scuola',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35, color: Color.fromRGBO(86, 70, 204, 1.0), fontWeight: FontWeight.bold)),
               SizedBox(height: 10),
               Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left: 40.0, top:20.0, right:40.0, bottom:20.0),
                   child: Text("Itet  Garibaldi offre degli sbocchi lavorativi"
                       " ai ragazzi interessati  a entrare in contatto con il "
                       "mondo dell'economia, in particolare svolgendo attività "
                       "lavorative di marketing, contabili e finanziarie.",
-                      style: TextStyle(fontSize: 22))),
+                      style: TextStyle(fontSize: 22),textAlign: TextAlign.justify)),
               Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left: 40.0, top:20.0, right:40.0, bottom:20.0),
                   child: Text('Con il diploma presso l’Itet si può lavorare '
                       'nelle banche, nelle assicurazioni, nelle imprese, uffici '
                       'pubblici, libero professionista, programmatore/informatico '
@@ -35,7 +35,7 @@ class CheLavoriPuoiFare extends StatelessWidget {
                       'alberghiere, villaggi turistici, e lavorare in agenzie '
                       'di viaggi, uffici della pubblica amministrazione, '
                       'compagnie di aeroporti e imprese di trasporto.',
-                      style: TextStyle(fontSize: 22))),
+                      style: TextStyle(fontSize: 22),textAlign: TextAlign.justify)),
 
             ]
         )
