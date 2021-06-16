@@ -57,7 +57,18 @@ flutter:
     - assets/images/studia.jpeg
     - assets/images/laboratorio.png
     - assets/images/erasmus+.jpg
-
+    - assets/images/erasmus2.jpg
+    - assets/images/erasmus3.jpg
+    - assets/images/erasmus4.jpg
+    - assets/images/intercultura1.jpg
+    - assets/images/intercultura2.jpg
+    - assets/images/ECDL.jpg
+    - assets/images/ECDL2.jpg
+    - assets/images/Pon.jpg
+    - assets/images/pon2.jpg
+    - assets/images/Stage1.jpg
+    - assets/images/Stage2.jpg
+    - assets/images/TRINITY1.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
