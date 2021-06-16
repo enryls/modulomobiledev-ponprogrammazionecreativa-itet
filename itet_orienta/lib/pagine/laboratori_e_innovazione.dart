@@ -13,7 +13,13 @@ class LaboratoriEInnovazione extends StatelessWidget {
         children: [
           Image.asset('assets/images/laboratorio.png', width: 600, height: 200, fit: BoxFit.cover,),
           SizedBox(height: 30),
-          Text('Laboratori e innovazioni',textAlign: TextAlign.center ,style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,)),
+          Text('Laboratori e innovazioni',textAlign: TextAlign.center ,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 30,
+                color: Color.fromRGBO(86, 70, 204, 1.0)
+              ),
+          ),
           SizedBox(height: 1),
           Padding(
             padding: const EdgeInsets.all(40.40),

@@ -13,7 +13,13 @@ class LaNostraScuola extends StatelessWidget {
         children: [
           Image.asset('assets/images/scuola_2.png', width: 600, height: 200, fit: BoxFit.cover,),
           SizedBox(height: 30),
-          Text('La nostra scuola',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35,fontWeight: FontWeight.bold,)),
+          Text('La nostra scuola',textAlign: TextAlign.center ,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              color: Color.fromRGBO(86, 70, 204, 1.0)
+            ),
+          ),
           SizedBox(height: 1),
           Padding(
             padding: const EdgeInsets.all(40.40),

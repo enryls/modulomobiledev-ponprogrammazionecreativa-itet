@@ -13,14 +13,14 @@ class PerIGenitori extends StatelessWidget {
       appBar: MyAppBar(),
       body: ListView(
         children: [
-          Image.asset('assets/images/scuola_casa.png', fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola_casa.png', width: 600, height: 200, fit: BoxFit.cover,),
           Padding(
             padding: EdgeInsets.all(25),
             child: const Text("L'unione tra famiglia e scuola",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                fontSize: 30,
-                    color: Color.fromRGBO(86, 70, 204, 1.0)
+                  fontSize: 30,
+                  color: Color.fromRGBO(86, 70, 204, 1.0)
             ),
                 textAlign: TextAlign.center
             ),
