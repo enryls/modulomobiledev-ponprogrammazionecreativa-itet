@@ -48,7 +48,7 @@ flutter:
   assets:
     - assets/images/scuola.png
     - assets/images/scuola_2.png
-    - assets/icon/icon.png
+    - assets/icon/icona.png
     - assets/images/itetorienta.png
     - assets/images/Splashscreen.png
     - assets/images/genitori.jpeg
@@ -92,4 +92,4 @@ flutter:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icon/icon.png"
+  image_path: "assets/icon/icona.png"
