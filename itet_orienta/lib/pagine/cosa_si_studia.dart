@@ -11,11 +11,11 @@ class CosaSiStudia extends StatelessWidget {
       body: ListView(
           children: [
             Image.asset('assets/images/studia.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
+            SizedBox(height: 20),
+            Text('Il Biennio',textAlign: TextAlign.center ,style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28, fontWeight: FontWeight.w900)),
             SizedBox(height: 10),
-            Text('Il Biennio',textAlign: TextAlign.center ,style: TextStyle(fontSize: 28,)),
-            SizedBox(height: 3),
             Padding(
-              padding: const EdgeInsets.all(20.20),
+              padding: const EdgeInsets.only(left:40,top:15,right:40,bottom:40),
               child:
               Text('Il primo biennio fornisce una base generale di conoscenze '
                   'informatiche, economiche e linguistiche. Dal terzo anno gli '
@@ -24,13 +24,13 @@ class CosaSiStudia extends StatelessWidget {
                   'Aziendali e Turistico. Lo studente, finito il percorso '
                   'scolastico, sarà pronto per proseguire con gli studi universitari '
                   'oppure affrontare subito il mondo del lavoro.)',
-                textAlign: TextAlign.justify, style: TextStyle(fontSize: 20, height:1.0),)
+                textAlign: TextAlign.justify, style: TextStyle( fontSize: 20, height:1.0),)
             ),
             Text('AFM (amministrazione, finanza e marketing)', textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 28),
+              style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28,fontWeight: FontWeight.w900),
             ),
       Padding(
-          padding: const EdgeInsets.all(20.20),
+    padding: const EdgeInsets.only(left:40,top:15,right:40,bottom:40),
           child:
             Text('L’indirizzo AFM (amministrazione, finanza e marketing) è il '
                 'percorso giusto per poter apprendere competenze professionali in '
@@ -43,10 +43,10 @@ class CosaSiStudia extends StatelessWidget {
       ),
             Text('SIA (Sistemi informativi aziendali)',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 28),
+              style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28,fontWeight: FontWeight.w900),
             ),
       Padding(
-          padding: const EdgeInsets.all(20.20),
+    padding: const EdgeInsets.only(left:40,top:15,right:40,bottom:40),
           child:
             Text('Sei un appassionato di informatica, ti piace utilizzare i computer '
                 'e vorresti imparare a progettare siti web?Il SIA, Sistemi Informativi Aziendali, '
@@ -61,10 +61,10 @@ class CosaSiStudia extends StatelessWidget {
               textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),)
       ),
             Text('Turismo',  textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 28),
+              style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28,fontWeight: FontWeight.w900),
             ),
       Padding(
-          padding: const EdgeInsets.all(20.20),
+            padding: const EdgeInsets.only(left:40,top:15,right:40,bottom:40),
           child:
             Text('L’indirizzo TURISMO dell’istituto ITET Garibaldi di Marsala '
                 'consente agli studenti di apprendere ampie competenze linguistiche, '
