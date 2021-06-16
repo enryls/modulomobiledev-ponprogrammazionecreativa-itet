@@ -33,28 +33,33 @@ class MyHomePage extends StatelessWidget {
               width: MediaQuery.of(context).size.width * 1,
               height: 200,
               child: ListView(
-                  children: [ Text("L' Itet è la scuola giusta per te?", style:TextStyle(color:Colors.white, fontSize: 25, fontWeight: FontWeight.bold,)),
-                  TextButton(
-                  style: TextButton.styleFrom(
-                    backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
-                    padding: EdgeInsets.all(20),
-                    alignment: Alignment.center,
-                    primary: Colors.white,
-                    textStyle: TextStyle(
-                      fontSize: 29,
-                      fontWeight: FontWeight.bold,
+                  children: [
+                    Row(children: <Widget>[
+                        Text("L'",style: TextStyle(fontWeight: FontWeight.bold, color:Colors.white, fontSize: 10,)),
+                        Text('Itet', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.yellow.shade800, fontSize: 10,)),
+                        Text('è la scuola giusta per te?', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.white, fontSize: 10,)),
+
+                        TextButton(
+                        style: TextButton.styleFrom(
+                          backgroundColor: Color.fromRGBO(248, 161, 17, 1.0),
+                          padding: EdgeInsets.only(left:20, top: 20, right: 20, bottom: 20),
+                          alignment: Alignment.centerLeft,
+                          primary: Colors.white,
+                          textStyle: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          elevation: 10,
+                        ),
+                          child: const Text('Fai il quiz e scoprilo!', style:TextStyle(color:Colors.white,)),
+                      ),]
                     ),
-                    elevation: 10,
-                  ),
-                  child: const Text('Clicca qui!'),
-                ),]
               ),
-            ),
+          ),
           ),
           SizedBox(height: 30),
           Row(children: <Widget>[
-            Text("5 motivi per scegliere l'", style:TextStyle(color:Color.fromRGBO(
-                75, 13, 161, 0.8549019607843137), fontSize: 25, fontWeight: FontWeight.bold,)),
+            Text("5 motivi per scegliere l'", style:TextStyle(color:Color.fromRGBO(75, 13, 161, 0.8549019607843137), fontSize: 25, fontWeight: FontWeight.bold,)),
             Text('Itet', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.yellow.shade800, fontSize: 25,)),
           ],
             mainAxisAlignment: MainAxisAlignment.center,
