@@ -69,6 +69,8 @@ flutter:
     - assets/images/Stage1.jpg
     - assets/images/Stage2.jpg
     - assets/images/TRINITY1.jpg
+    - assets/images/preside.jpeg
+    - assets/images/scuola_casa.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

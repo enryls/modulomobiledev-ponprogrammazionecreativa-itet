@@ -13,36 +13,28 @@ class PerIGenitori extends StatelessWidget {
       appBar: MyAppBar(),
       body: ListView(
         children: [
-          Image.asset('assets/images/genitori.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
+          Image.asset('assets/images/scuola_casa.png', fit: BoxFit.cover,),
           Padding(
-            padding: EdgeInsets.fromLTRB(15, 30, 15, 30),
+            padding: EdgeInsets.all(25),
             child: const Text("L'unione tra famiglia e scuola",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                fontSize: 40
+                fontSize: 30,
+                    color: Color.fromRGBO(86, 70, 204, 1.0)
             ),
                 textAlign: TextAlign.center
             ),
           ),
           Padding(
-            padding: EdgeInsets.all(40.40),
+            padding: EdgeInsets.fromLTRB(40, 15, 40, 40),
             child: const Text(
               'L’ Itet Garibaldi di Marsala offre diverse agevolazioni, delle '
-              'opportunità per le famiglie.',
-              style: TextStyle(
-                fontSize: 22,
-              ),
-                textAlign: TextAlign.justify,
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.all(40.40),
-            child: const Text(
+              'opportunità per le famiglie.'
               'Per avere ulteriori informazioni '
               'su corsi, iscrizioni, escursioni e offerta formativa nel '
               'dettaglio.',
               style: TextStyle(
-                fontSize: 22,
+                fontSize: 20,
               ),
                 textAlign: TextAlign.justify,
             ),
