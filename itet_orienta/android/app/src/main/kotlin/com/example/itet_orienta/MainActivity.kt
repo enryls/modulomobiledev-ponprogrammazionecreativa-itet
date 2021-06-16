@@ -1,4 +1,4 @@
-package com.example.itet_orienta
+package com.app.itet_orienta
 
 import io.flutter.embedding.android.FlutterActivity
 
