@@ -67,7 +67,7 @@ class EsperienzeEProgetti extends StatelessWidget {
               },
             ),
           ),
-            SizedBox(height: 10),
+          SizedBox(height: 10),
           Padding(
             padding: EdgeInsets.fromLTRB(90, 20, 90, 20),
             child:TextButton(
@@ -275,7 +275,7 @@ class ImPagina extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Image.asset('assets/images/PON.jpg', fit: BoxFit.cover,),
+          Image.asset('assets/images/Pon.jpg', fit: BoxFit.cover,),
           Image.asset('assets/images/pon2.jpg', fit: BoxFit.cover,),
         ],
       ),
