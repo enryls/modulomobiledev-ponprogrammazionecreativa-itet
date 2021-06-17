@@ -12,13 +12,21 @@ class EsperienzeEProgetti extends StatelessWidget {
       body: ListView(
         children: [
           Image.asset('assets/images/experience.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
-          SizedBox(height: 10),
-          Text('Esperienze e Progetti',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35, color: Color.fromRGBO(86, 70, 204, 1.0), fontWeight: FontWeight.bold)),
-          SizedBox(height: 10),
+        Padding(
+        padding: const EdgeInsets.all(25),
+        child:
+          Text('Esperienze e Progetti',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: 30,
+                  color: Color.fromRGBO(86, 70, 204, 1.0),
+                  fontWeight: FontWeight.bold
+              )
+          ),
+        ),
           Padding(
-            padding: const EdgeInsets.all(40.40),
-            child:
-            Text(
+            padding: const EdgeInsets.fromLTRB(40, 15, 40, 40),
+            child: Text(
               'Il nostro Istituto presenta diverse attività ed esperienze innovative '
                   'che prospettano il miglioramento del nostro modo di pensare, '
                   'non solo nello studio ma perfino nel lavoro. Esse sono attività '
@@ -26,8 +34,9 @@ class EsperienzeEProgetti extends StatelessWidget {
                   'gli alunni a crescere e ad avere nuove conoscenze. Alcune di queste sono:',
               style: TextStyle(
                   fontSize: 22,
-                  fontFamily: 'Times New Roman'
+
               ),
+              textAlign: TextAlign.justify,
             ),
           ),
 
