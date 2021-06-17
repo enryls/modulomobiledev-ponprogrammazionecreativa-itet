@@ -30,10 +30,10 @@ class EsperienzeEProgetti extends StatelessWidget {
                   'che suscitano molto interesse,fatti in modo tale da poter aiutare '
                   'gli alunni a crescere e ad avere nuove conoscenze. Alcune di queste sono:',
               style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
 
               ),
-              textAlign: TextAlign.justify,
+              textAlign: TextAlign.center,
             ),
           ),
 
@@ -50,7 +50,7 @@ class EsperienzeEProgetti extends StatelessWidget {
                 ),
                 primary: Colors.white,
                 textStyle: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
                 elevation: 10,
@@ -77,7 +77,7 @@ class EsperienzeEProgetti extends StatelessWidget {
                 ),
                 primary: Colors.white,
                 textStyle: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
                 elevation: 10,
@@ -104,7 +104,7 @@ class EsperienzeEProgetti extends StatelessWidget {
                 ),
                 primary: Colors.white,
                 textStyle: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
                 elevation: 10,
@@ -131,7 +131,7 @@ class EsperienzeEProgetti extends StatelessWidget {
                 ),
                 primary: Colors.white,
                 textStyle: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
                 elevation: 10,
@@ -158,7 +158,7 @@ class EsperienzeEProgetti extends StatelessWidget {
                 ),
                 primary: Colors.white,
                 textStyle: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
                 elevation: 10,
@@ -185,7 +185,7 @@ class EsperienzeEProgetti extends StatelessWidget {
                 ),
                 primary: Colors.white,
                 textStyle: TextStyle(
-                  fontSize: 22,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
                 elevation: 10,

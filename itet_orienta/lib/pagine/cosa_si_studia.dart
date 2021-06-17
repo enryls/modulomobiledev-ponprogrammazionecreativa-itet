@@ -30,7 +30,7 @@ class CosaSiStudia extends StatelessWidget {
                   'Aziendali e Turistico. Lo studente, finito il percorso '
                   'scolastico, sarà pronto per proseguire con gli studi universitari '
                   'oppure affrontare subito il mondo del lavoro.)',
-                textAlign: TextAlign.justify, style: TextStyle( fontSize: 20, height:1.0),)
+                textAlign: TextAlign.center, style: TextStyle( fontSize: 20, height:1.0),)
             ),
             Text('AFM (amministrazione, finanza e marketing)', textAlign: TextAlign.center,
               style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28,fontWeight: FontWeight.w900),
@@ -44,7 +44,7 @@ class CosaSiStudia extends StatelessWidget {
                 ' i progetti in laboratorio, le esperienze di alternanza scuola-lavoro,'
                 ' si uniscono in un percorso che consente allo studente di farsi trovare '
                 'pronto per il mondo del lavoro e dell’università.)',
-              textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),
+              textAlign: TextAlign.center,style: TextStyle(fontSize: 20),
             ),
       ),
             Text('SIA (Sistemi informativi aziendali)',
@@ -64,7 +64,7 @@ class CosaSiStudia extends StatelessWidget {
                 'in maniera completa l’informatica e conoscere il mondo dell’economia. '
                 'Sono tanti i progetti, i laboratori, e le attività di alternanza '
                 'scuola lavoro in ambito informatico.',
-              textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),)
+              textAlign: TextAlign.center,style: TextStyle(fontSize: 20),)
       ),
             Text('Turismo',  textAlign: TextAlign.center,
               style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28,fontWeight: FontWeight.w900),
@@ -79,7 +79,7 @@ class CosaSiStudia extends StatelessWidget {
                 ' appieno le dinamiche del settore turistico, che ogni anno coinvolge '
                 'sempre più persone. Permette di ottenere competenze nella  valorizzazione '
                 'del paesaggio, nella promozione culturale e dei servizi riguardanti il territorio.',
-              textAlign: TextAlign.justify,style: TextStyle(fontSize: 20),)
+              textAlign: TextAlign.center,style: TextStyle(fontSize: 20),)
       ),
           ]),
     );

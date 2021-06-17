@@ -30,7 +30,7 @@ class LaNostraScuola extends StatelessWidget {
                 'Tra gli anni 80 e gli anni 90 il “Giuseppe Garibaldi” arrivò ad '
                 'avere fino a 45 classi e più di 1300 alunni, continuando ad evolversi '
                 'diventando, oggi, una delle scuole più rinomate e punto di riferimento '
-                'per l’istruzione superiore nel territorio.', textAlign: TextAlign.justify,
+                'per l’istruzione superiore nel territorio.', textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 20, height: 1.2)),
           ),
         ],

@@ -30,7 +30,7 @@ class CheLavoriPuoiFare extends StatelessWidget {
                       " ai ragazzi interessati  a entrare in contatto con il "
                       "mondo dell'economia, in particolare svolgendo attività "
                       "lavorative di marketing, contabili e finanziarie.",
-                      style: TextStyle(fontSize: 22),textAlign: TextAlign.justify)),
+                      style: TextStyle(fontSize: 20),textAlign: TextAlign.center)),
               Padding(
                   padding: const EdgeInsets.only(left: 40.0, top:20.0, right:40.0, bottom:20.0),
                   child: Text('Con il diploma presso l’Itet si può lavorare '
@@ -41,7 +41,7 @@ class CheLavoriPuoiFare extends StatelessWidget {
                       'alberghiere, villaggi turistici, e lavorare in agenzie '
                       'di viaggi, uffici della pubblica amministrazione, '
                       'compagnie di aeroporti e imprese di trasporto.',
-                      style: TextStyle(fontSize: 22),textAlign: TextAlign.justify)),
+                      style: TextStyle(fontSize: 20),textAlign: TextAlign.center)),
 
             ]
         )

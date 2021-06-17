@@ -35,30 +35,33 @@ class PerIGenitori extends StatelessWidget {
               style: TextStyle(
                 fontSize: 20,
               ),
-                textAlign: TextAlign.justify,
+                textAlign: TextAlign.center,
             ),
           ),
           Padding(
             padding: EdgeInsets.fromLTRB(90, 20, 90, 20),
             child:TextButton(
-             style: TextButton.styleFrom(
-              backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
-              padding: EdgeInsets.all(20),
-              alignment: Alignment.center,
-              primary: Colors.white,
-              textStyle: TextStyle(
-                  fontSize: 29,
+              style: TextButton.styleFrom(
+                backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
+                padding: EdgeInsets.all(20),
+                alignment: Alignment.center,
+                shape: RoundedRectangleBorder(
+                    side: BorderSide(color: Colors.amber, width: 5)
+                ),
+                primary: Colors.white,
+                textStyle: TextStyle(
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
+                ),
+                elevation: 5,
               ),
-              elevation: 10,
-            ),
               child: const Text('Clicca qui!'),
               onPressed: _launchURL,
+            ),
           ),
-      ),
         ],
       ),
-      );
+    );
   }
   _launchURL() async {
     const url = 'https://itetgaribaldi.it/agevolazioni-economiche/';

@@ -14,8 +14,8 @@ class MyHomePage extends StatelessWidget {
           Image.asset('assets/images/scuola.png', width: 600, height: 200, fit: BoxFit.cover,),
           SizedBox(height: 50),
           Row(children: <Widget>[
-            Text("Cos'è Itet", style:TextStyle(color:Color.fromRGBO(75, 13, 161, 0.8549019607843137), fontSize: 30, fontWeight: FontWeight.bold,)),
-            Text('Orienta?', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.yellow.shade800, fontSize: 30,)),
+            Text("Cos'è Itet", style:TextStyle(color:Color.fromRGBO(75, 13, 161, 0.8549019607843137), fontSize: 30, fontWeight: FontWeight.w900,)),
+            Text('Orienta?', style: TextStyle(fontWeight: FontWeight.w900, color:Colors.yellow.shade800, fontSize: 30,)),
             ],
             mainAxisAlignment: MainAxisAlignment.center,
           ),
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
             padding: const EdgeInsets.all(40.40),
             child:
             Text("Scegliere l’ITET è una scelta saggia che dovrebbero intraprendere tutti i ragazzi interessati a studiare in particolare le materie in campo economico, informatico e giuridico. La nostra scuola presenta due sedi: Via Trapani e Via Fici; entrambe fornite di spazi didattici dedicati ad attività laboratoriali, tra cui il laboratorio di biologia/chimica, i laboratori informatici… L'alta qualità della proposta formativa e della didattica caratterizzano. l'Itet 'Giuseppe Garibaldi'. Le ore dedicate alla teoria, un consistente impegno in laboratorio e le esperienze degli stage aziendali è la formula che permette agli studenti di acquisire accurate competenze per il futuro lavorativo.",
-                textAlign: TextAlign.justify,
+                textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 20, height: 1.2)),
           ),
           Center(
