@@ -11,8 +11,14 @@ class CosaSiStudia extends StatelessWidget {
       body: ListView(
           children: [
             Image.asset('assets/images/studia.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
-            SizedBox(height: 20),
-            Text('Il Biennio',textAlign: TextAlign.center ,style: TextStyle(color: Color.fromRGBO(86, 70, 204, 1.0), fontSize: 28, fontWeight: FontWeight.w900)),
+            SizedBox(height: 30),
+            Text('Il Biennio',textAlign: TextAlign.center ,
+              style: TextStyle(
+                fontWeight: FontWeight.w900,
+                fontSize: 30,
+                color: Color.fromRGBO(86, 70, 204, 1.0)
+              ),
+            ),
             SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.only(left:40,top:15,right:40,bottom:40),

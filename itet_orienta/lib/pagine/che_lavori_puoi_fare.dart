@@ -15,8 +15,14 @@ class CheLavoriPuoiFare extends StatelessWidget {
                   height: 240,
                   fit: BoxFit.cover
               ),
-              SizedBox(height: 40),
-              Text('Che lavori puoi fare',textAlign: TextAlign.center ,style: TextStyle(fontSize: 35, color: Color.fromRGBO(86, 70, 204, 1.0), fontWeight: FontWeight.bold)),
+              SizedBox(height: 30),
+              Text('Che lavori puoi fare',textAlign: TextAlign.center ,
+                style: TextStyle(
+                    fontWeight: FontWeight.w900,
+                    fontSize: 30,
+                    color: Color.fromRGBO(86, 70, 204, 1.0)
+                ),
+              ),
               SizedBox(height: 10),
               Padding(
                   padding: const EdgeInsets.only(left: 40.0, top:20.0, right:40.0, bottom:20.0),

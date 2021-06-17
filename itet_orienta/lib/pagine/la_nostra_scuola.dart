@@ -15,12 +15,12 @@ class LaNostraScuola extends StatelessWidget {
           SizedBox(height: 30),
           Text('La nostra scuola',textAlign: TextAlign.center ,
             style: TextStyle(
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w900,
               fontSize: 30,
               color: Color.fromRGBO(86, 70, 204, 1.0)
             ),
           ),
-          SizedBox(height: 1),
+          SizedBox(height: 10),
           Padding(
             padding: const EdgeInsets.all(40.40),
             child:

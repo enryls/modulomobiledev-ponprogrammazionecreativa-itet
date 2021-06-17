@@ -12,18 +12,15 @@ class EsperienzeEProgetti extends StatelessWidget {
       body: ListView(
         children: [
           Image.asset('assets/images/experience.jpeg', width: 600, height: 240, fit: BoxFit.cover,),
-        Padding(
-        padding: const EdgeInsets.all(25),
-        child:
-          Text('Esperienze e Progetti',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: 30,
-                  color: Color.fromRGBO(86, 70, 204, 1.0),
-                  fontWeight: FontWeight.bold
-              )
+          SizedBox(height: 30),
+          Text('Esperienze e Progetti',textAlign: TextAlign.center ,
+            style: TextStyle(
+                fontWeight: FontWeight.w900,
+                fontSize: 30,
+                color: Color.fromRGBO(86, 70, 204, 1.0)
+            ),
           ),
-        ),
+          SizedBox(height: 10),
           Padding(
             padding: const EdgeInsets.fromLTRB(40, 15, 40, 40),
             child: Text(
