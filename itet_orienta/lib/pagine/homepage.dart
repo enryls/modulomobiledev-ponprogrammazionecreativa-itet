@@ -34,26 +34,35 @@ class MyHomePage extends StatelessWidget {
               height: 200,
               child: ListView(
                   children: [
+                    SizedBox(height: 30),
                     Row(children: <Widget>[
-                        Text("L'",style: TextStyle(fontWeight: FontWeight.bold, color:Colors.white, fontSize: 10,)),
-                        Text('Itet', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.yellow.shade800, fontSize: 10,)),
-                        Text('è la scuola giusta per te?', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.white, fontSize: 10,)),
+                        Text("L'",style: TextStyle(fontWeight: FontWeight.bold, color:Colors.white, fontSize: 20,)),
+                        Text('Itet', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.yellow.shade800, fontSize: 20,)),
+                        Text(' è la scuola giusta per te?', style: TextStyle(fontWeight: FontWeight.bold, color:Colors.white, fontSize: 20,)),
 
-                        TextButton(
-                        style: TextButton.styleFrom(
-                          backgroundColor: Color.fromRGBO(248, 161, 17, 1.0),
-                          padding: EdgeInsets.only(left:20, top: 20, right: 20, bottom: 20),
-                          alignment: Alignment.centerLeft,
-                          primary: Colors.white,
-                          textStyle: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                          ),
-                          elevation: 10,
-                        ),
-                          child: const Text('Fai il quiz e scoprilo!', style:TextStyle(color:Colors.white,)),
-                      ),]
+                        ],
+                      mainAxisAlignment: MainAxisAlignment.center,
                     ),
+                    SizedBox(height: 30),
+                Padding(
+                  padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
+                  child:TextButton(
+                      style: TextButton.styleFrom(
+                        backgroundColor: Color.fromRGBO(248, 161, 17, 1.0),
+                        alignment: Alignment.center,
+                        primary: Colors.white,
+                        padding: EdgeInsets.all(20),
+                        textStyle: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        elevation: 5,
+                      ),
+                      onPressed: () {},
+                      child: const Text('Fai il quiz e scoprilo!', style:TextStyle(color:Colors.white,)),
+                    ),
+                ),
+                ],
               ),
           ),
           ),
