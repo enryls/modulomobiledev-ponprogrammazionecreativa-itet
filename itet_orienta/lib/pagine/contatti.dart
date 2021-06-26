@@ -139,11 +139,27 @@ class Contatti extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
             child:
-            Text('Posta certificata: TPTD03000E@pec.istruzione.it',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
-              ),
+            Row( textDirection: TextDirection.ltr ,
+              children: const <Widget>[
+                Expanded(flex:(0),
+                  child:
+                  Text('Posta Certificata: ', style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                  ),
+                ),
+                Expanded(child:
+                  TextButton(onPressed: _launchURL4, child:
+                    Text("TPTD03000E@pec.istruzione.it", style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.black,
+                    ),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ],
@@ -154,7 +170,7 @@ class Contatti extends StatelessWidget {
 
 
 _launchURL() async {
-  const url = 'tel:0923716100';
+  const url = 'tel:0923989011';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -180,6 +196,14 @@ _launchURL2() async {
 }
 _launchURL3() async {
   const url1 = 'mailto:tptd03000e@istruzione.it';
+  if (await canLaunch(url1)) {
+    await launch(url1);
+  } else {
+    throw 'Could not launch $url1';
+  }
+}
+_launchURL4() async {
+  const url1 = 'mailto:TPTD03000E@pec.istruzione.it';
   if (await canLaunch(url1)) {
     await launch(url1);
   } else {
