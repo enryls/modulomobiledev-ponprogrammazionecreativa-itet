@@ -55,7 +55,7 @@ class CosaSiStudia extends StatelessWidget {
     padding: const EdgeInsets.only(left:40,top:15,right:40,bottom:40),
           child:
             Text('Sei un appassionato di informatica, ti piace utilizzare i computer '
-                'e vorresti imparare a progettare siti web?Il SIA, Sistemi Informativi Aziendali, '
+                'e vorresti imparare a progettare siti web? Il SIA, Sistemi Informativi Aziendali, '
                 'è l’indirizzo dell’ITET “Garibaldi” che segue le tue passioni. '
                 'Il SIA combina informatica, economia e finanza. In questo corso '
                 'apprenderai tutto ciò che riguarda la gestionedell’archiviazione '
@@ -75,7 +75,7 @@ class CosaSiStudia extends StatelessWidget {
             Text('L’indirizzo TURISMO dell’istituto ITET Garibaldi di Marsala '
                 'consente agli studenti di apprendere ampie competenze linguistiche, '
                 'in maniera tale da poter svolgere attività nelle imprese turistiche '
-                'ed economiche.L’indirizzo Turismo dell’Itet permette di conoscere'
+                'ed economiche. L’indirizzo Turismo dell’Itet permette di conoscere'
                 ' appieno le dinamiche del settore turistico, che ogni anno coinvolge '
                 'sempre più persone. Permette di ottenere competenze nella  valorizzazione '
                 'del paesaggio, nella promozione culturale e dei servizi riguardanti il territorio.',

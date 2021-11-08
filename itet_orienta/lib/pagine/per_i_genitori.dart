@@ -39,7 +39,7 @@ class PerIGenitori extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(90, 20, 90, 20),
+            padding: EdgeInsets.fromLTRB(90, 20, 90, 30),
             child:TextButton(
               style: TextButton.styleFrom(
                 backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
