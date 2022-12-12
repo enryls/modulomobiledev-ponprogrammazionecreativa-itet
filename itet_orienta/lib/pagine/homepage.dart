@@ -5,8 +5,7 @@ import 'package:itet_orienta/appbar.dart';
 class MyHomePage extends StatelessWidget {
   final title = 'ITET Orienta';
 
-  @override
-  Widget build(BuildContext context) {
+  @override Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar(),
       body: ListView(

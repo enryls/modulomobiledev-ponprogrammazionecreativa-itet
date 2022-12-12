@@ -14,8 +14,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-        child: Container(
-          //child: Your widget,
+        child: Container(//child: Your widget,
             color: colore_sfondo,
             child: ListView(
               padding: EdgeInsets.zero,
