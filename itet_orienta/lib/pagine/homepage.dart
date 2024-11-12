@@ -47,9 +47,8 @@ class MyHomePage extends StatelessWidget {
                   padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
                   child:TextButton(
                       style: TextButton.styleFrom(
-                        backgroundColor: Color.fromRGBO(248, 161, 17, 1.0),
+                        foregroundColor: Colors.white, backgroundColor: Color.fromRGBO(248, 161, 17, 1.0),
                         alignment: Alignment.center,
-                        primary: Colors.white,
                         padding: EdgeInsets.all(20),
                         textStyle: TextStyle(
                           fontSize: 20,

@@ -86,7 +86,7 @@ class MyDrawer extends StatelessWidget {
   }
 
   Widget _createDrawerItem(
-      {String text, GestureTapCallback onTap}) {
+      {required String text, required GestureTapCallback onTap}) {
     return ListTile(
       title: Row(
         children: <Widget>[

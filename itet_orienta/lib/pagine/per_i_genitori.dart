@@ -42,13 +42,12 @@ class PerIGenitori extends StatelessWidget {
             padding: EdgeInsets.fromLTRB(90, 20, 90, 30),
             child:TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
+                foregroundColor: Colors.white, backgroundColor: Color.fromRGBO(86, 70, 204, 1.0),
                 padding: EdgeInsets.all(20),
                 alignment: Alignment.center,
                 shape: RoundedRectangleBorder(
                     side: BorderSide(color: Colors.amber, width: 5)
                 ),
-                primary: Colors.white,
                 textStyle: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
